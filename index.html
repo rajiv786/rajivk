@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<div class="flex-container">
+  <div class="column">
+    <img src="1.jpg">
+  </div>
+  <div class="column">
+    <h3 class="r">Classic Denim Shirt</h3>
+    <div class="rating">
+      <span class="rating__stars" style="--rating: 3;"></span>
+      <div class="rating__number">
+        
+       
+      </div>
+    </div>
+            <p id="u">Quantity</p>
+        <div id="ra">
+          
+          <button class="button-2" role="button" onclick="decrement()">+</button>
+        <input id=demoInput type=number min=0 max=100>         
+        <button onclick="decrement()">-</button>
+        <script>
+        function increment() {
+           document.getElementById('demoInput').stepUp();
+        }
+       function decrement() {
+      document.getElementById('demoInput').stepDown();
+       }
+       </script>
+         <p class="ra">Check COD Available</p>
+         <input type="number" id="pincode" class="ra">
+          <button onclick="demo()" type="submit" id="btnSubmit">Check</button><br>
+          <button class="button-6">Add To Cart Rs 2599</button>
+          <div class="flex-container">
+            <a href="#" class="fa fa-facebook">Share</a>
+            <a href="#" class="fa fa-twitter">Tweet</a>
+            <a href="#" class="fa fa-google">Pin</a>
+    </div>
+    </div>
+        </div>
+        
+  </div>
+</div>
+<script src="https://kit.fontawesome.com/5ea815c1d0.js"></script>
+</body>
+</html>
